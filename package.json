@@ -1,7 +1,7 @@
 {
-  "name": "@ckeditor/ckeditor5-build-classic",
-  "version": "17.0.0",
-  "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
+  "name": "@dethtroll/ckeditor5-build-sova",
+  "version": "17.0.1",
+  "description": "The classic editor build of CKEditor 5 with table plugins.",
   "keywords": [
     "ckeditor5-build",
     "ckeditor",
@@ -72,7 +72,7 @@
   "bugs": "https://github.com/ckeditor/ckeditor5/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckeditor/ckeditor5-build-classic.git"
+    "url": "https://github.com/dethtroll/ckeditor5-build-classic.git"
   },
   "scripts": {
     "build": "webpack --mode production",
