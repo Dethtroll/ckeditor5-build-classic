@@ -34,6 +34,7 @@ import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperti
 import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount';
+import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -66,6 +67,7 @@ ClassicEditor.builtinPlugins = [
 	TableCellProperties,
 	TableProperties,
 	TableToolbar,
+	TextTransformation,
 	WordCount
 ];
 
@@ -106,7 +108,8 @@ ClassicEditor.defaultConfig = {
 			'tableRow',
 			'mergeTableCells',
 			'tableProperties',
-			'tableCellProperties'
+			'tableCellProperties',
+			'mergeTableCells'
 		]
 	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
